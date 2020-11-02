@@ -1,6 +1,6 @@
 <div class="card-group">
   <div class="card">
-      <h5 class="card-title  text-center">SSL</h5>
+    <h5 class="card-title  text-center">SSL</h5>
     <img src="assets/ssl imagen.png" style="width: 350px;" class="card-img-top" alt="...">
     <div class="card-body">
       <p class="card-text">
@@ -9,22 +9,29 @@
         proteger las comunicaciones entre un navegador web y un servidor web. Este protocolo
         cambia la dirección del sitio web de HTTP a HTTPS, donde «S» significa «seguridad».
 
-        <strong>Más información: 
+        <strong>Más información:
           <a href="https://docs.gandi.net/es/ssl/que_es_ssl.html">Aquí</a> </strong>
       </p>
       <p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
     </div>
   </div>
   <div class="card">
-      <h5 class="card-title text-center">IMAP</h5>
-    <img src="assets/imap imagen.webp"  style ="width: 350px" class="card-img-top" alt="...">
+    <h5 class="card-title text-center">IMAP</h5>
+    <img src="assets/imap imagen.webp" style="width: 350px" class="card-img-top" alt="...">
     <div class="card-body">
       <p class="card-text">
-        IMAP es la abreviatura de "Internet Message Access Protocol". IMAP te ofrece la posibilidad de administrar tus correos electrónicos directamente en el servidor de e-mail, es decir, si eliges el protocolo IMAP para establecer tu cuenta de correo en tu programa de e-mail, los correos que recibas no se descargarán en tu ordenador, sino que simplemente recibirás una lista de tus mensajes y sus correspondientes asuntos. Generalmente sólo aparecerán los encabezamientos de los correos electrónicos (esta opción también podrá modificarse en los respectivos programas de e-mail).
-        
-        Además, puedes crear tu propia carpeta en el servidor de e-mail y desplazar ahí tus mensajes. A partir de ese momento, podrás acceder a ellos en todo el mundo y desde varios dispositivos, como tu ordenador, un smartphone (iPhone, Android, etc.) o a través de la interfaz del Webmail de STRATO.
+        IMAP es la abreviatura de "Internet Message Access Protocol". IMAP te ofrece la posibilidad de administrar tus
+        correos electrónicos directamente en el servidor de e-mail, es decir, si eliges el protocolo IMAP para
+        establecer tu cuenta de correo en tu programa de e-mail, los correos que recibas no se descargarán en tu
+        ordenador, sino que simplemente recibirás una lista de tus mensajes y sus correspondientes asuntos. Generalmente
+        sólo aparecerán los encabezamientos de los correos electrónicos (esta opción también podrá modificarse en los
+        respectivos programas de e-mail).
 
-        <strong>¿Cómo implementarlo: 
+        Además, puedes crear tu propia carpeta en el servidor de e-mail y desplazar ahí tus mensajes. A partir de ese
+        momento, podrás acceder a ellos en todo el mundo y desde varios dispositivos, como tu ordenador, un smartphone
+        (iPhone, Android, etc.) o a través de la interfaz del Webmail de STRATO.
+
+        <strong>¿Cómo implementarlo:
           <a href="https://rico-schmidt.name/pymotw-3/imaplib/">Aquí</a> </strong>
 
       </p>
@@ -32,19 +39,55 @@
     </div>
   </div>
   <div class="card">
-      <h5 class="card-title text-center">SSH</h5>
-    <img src="assets/ssh imagen información.png" style ="width: 350px" class="card-img-top" alt="Imagen SSH">
+    <h5 class="card-title text-center">SSH</h5>
+    <img src="assets/ssh imagen información.png" style="width: 350px" class="card-img-top" alt="Imagen SSH">
     <div class="card-body">
       <p class="card-text">
-            SSH o Secure Shell, es un protocolo de administración remota que le permite a
-            los usuarios controlar y modificar sus servidores remotos a través de Internet a
-            través de un mecanismo de autenticación.
-            Proporciona un mecanismo para autenticar un usuario remoto, transferir entradas
-            desde el cliente al host y retransmitir la salida de vuelta al cliente.
-        <strong>Más información: 
-          <a href="https://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/ch-ssh.html">Aquí</a> </strong>
-        
-        </p>
+        SSH o Secure Shell, es un protocolo de administración remota que le permite a
+        los usuarios controlar y modificar sus servidores remotos a través de Internet a
+        través de un mecanismo de autenticación.
+        Proporciona un mecanismo para autenticar un usuario remoto, transferir entradas
+        desde el cliente al host y retransmitir la salida de vuelta al cliente.
+
+
+
+
+      </p>
+      <h4><strong>Origen</strong></h4>
+      <p>
+        SSH Secure SHell, es un protocolo creado por Tatu Ylönen. Los desarrolladores
+        de OpenSSH se dieron cuenta de que el protocolo SSH era una cosa necesaria
+        para su sistema y ahí nació OpenSSH que es el programa que se utiliza a día de
+        hoy.
+        El servicio se creó como un reemplazo seguro para el Telnet sin cifrar y utiliza
+        técnicas criptográficas para garantizar que todas las comunicaciones hacia y
+        desde el servidor remoto sucedan de manera encriptada.
+
+      </p>
+      <h4><strong>Características</strong></h4>
+      <ul>
+        <li>
+          Después de la conexión inicial, el cliente puede verificar que se esta
+          conectando al mismo servidor al que se conecto anteriormente
+          SSH 2
+        </li>
+        <li>El cliente transmite su información de autenticación al servidor usando una
+          encriptación robusta de 128 bits</li>
+        <li>Todos los datos enviados y recibidos durante la sesión se transfieren por
+          medio de la encriptación de 128 bits, lo cual los hacen extremadamente difícil
+          de descifrar y leer</li>
+
+        <li>
+          El cliente tiene la posibilidad de reenviar aplicaciones X11 (sistema de visión
+          por ventanas X11R6.7)
+        </li>
+
+        <li>Puede usarse para asegurar protocolos inseguros puesto que encripta todo lo
+          que envía y recibe
+        </li>
+      </ul>
+      <strong>Más información:
+        <a href="https://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/ch-ssh.html">Aquí</a> </strong>
       <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
     </div>
   </div>
