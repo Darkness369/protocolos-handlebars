@@ -1,11 +1,3 @@
-##  SSL/TLS certificates in NodeJS express applications
-
-```
-Requisito: Tener instalado NodeJs
-```
-
----
-
 ## Para iniciar la aplicación seguir los siguientes pasos.. 
 
 Step 1: Clonar el repo
