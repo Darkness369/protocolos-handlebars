@@ -20,19 +20,44 @@
     <img src="assets/imap imagen.webp" style="width: 350px" class="card-img-top" alt="...">
     <div class="card-body">
       <p class="card-text">
-        IMAP es la abreviatura de "Internet Message Access Protocol". IMAP te ofrece la posibilidad de administrar tus
-        correos electrónicos directamente en el servidor de e-mail, es decir, si eliges el protocolo IMAP para
-        establecer tu cuenta de correo en tu programa de e-mail, los correos que recibas no se descargarán en tu
-        ordenador, sino que simplemente recibirás una lista de tus mensajes y sus correspondientes asuntos. Generalmente
-        sólo aparecerán los encabezamientos de los correos electrónicos (esta opción también podrá modificarse en los
-        respectivos programas de e-mail).
+        El protocolo IMAP o Internet Message Access Protocol (Protocolo de Acceso a
+Mensajes de Internet) permite el acceso a mensajes de correo electrónico que
+se encuentran almacenados en un servidor desde cualquier ordenador que
+tenga conexión a Internet. Hay que indicar que IMAP es un protocolo de
+acceso a nuestro correo electrónico, pero no es un protocolo de envío de
+email.
+<h4><strong>Origen</strong></h4>
+<p>
+IMAP fue diseñado como una moderna alternativa a POP por Mark
+Crispin en el año 1986. Fundamentalmente, los dos protocolos les
+permiten a los clientes de correo acceder a los mensajes
+almacenados en un servidor de correo.
+</p>
+<h4><strong>Características</strong></h4>
+<p>
+Diferencia del protocolo POP3, el correo no es descargado
+inmediatamente, sino que es leído o consultado directamente en el
+servidor.
+Permite ver únicamente los encabezados del mensaje antes de
+decidir si abrirlo o eliminarlo.
+El servidor retiene el correo hasta que se solicite su eliminación.
+Puede consultarse el mismo correo desde diferentes computadoras
+ya que solo se lee lo que hay en el servidor.
+Permite operaciones avanzadas como creación de carpetas y
+buzones en el servidor.
 
-        Además, puedes crear tu propia carpeta en el servidor de e-mail y desplazar ahí tus mensajes. A partir de ese
-        momento, podrás acceder a ellos en todo el mundo y desde varios dispositivos, como tu ordenador, un smartphone
-        (iPhone, Android, etc.) o a través de la interfaz del Webmail de STRATO.
-
-        <strong>¿Cómo implementarlo:
+</p>
+<h4><strong>Aplicaciones</strong></h4>
+<p>Es un protocolo de aplicación que permite el acceso a mensajes
+almacenados en un servidor de Internet. Mediante IMAP se puede
+tener acceso al correo electrónico desde cualquier equipo que
+tenga una conexión a Internet
+</p>
+        <strong>¿Cómo implementarlo?
           <a href="https://rico-schmidt.name/pymotw-3/imaplib/">Aquí</a> </strong>
+          <br>
+        <strong>información complementaria:
+          <a href="https://www.youtube.com/watch?v=Paiozien2pY">Vídeo</a> </strong>
 
       </p>
       <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
@@ -84,6 +109,28 @@
 
         <li>Puede usarse para asegurar protocolos inseguros puesto que encripta todo lo
           que envía y recibe
+        </li>
+      </ul>
+      <h4><strong>Aplicaciones</strong></h4>
+      <p> 
+        La ventaja significativa ofrecida por el protocolo SSH sobre sus predecesores es
+el uso del cifrado para asegurar la transferencia segura de información entre el
+host y el cliente. Host se refiere al servidor remoto al que estás intentando
+acceder, mientras que el cliente es el equipo que estás utilizando para acceder al
+host. Hay tres tecnologías de cifrado diferentes utilizadas por SSH:
+
+      </p>
+      <ul>
+        <li>
+          Cifrado simétrico
+
+        </li>
+        <li>
+Cifrado asimétrico
+
+        </li>
+        <li>
+Hashing
         </li>
       </ul>
       <strong>Más información:
