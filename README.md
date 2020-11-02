@@ -6,38 +6,28 @@ This repo demonstrates how to use a ssl/tls certificate to be used in a nodejs e
 
 ## To start setting up the project
 
-Step 1: Clone the repo
+Step 1: Clonar el repo
 
 ```bash
-git clone https://github.com/trulymittal/ssl-secured.git
+git clone https://github.com/Darkness369/protocolos-handlebars.git
 ```
 
-Step 2: cd into the cloned repo and run:
+Step 2: Moverte al repo cd protocolos-handlebars
 
 ```bash
 npm install
 ```
 
-Step 3(optional): Incase nodemon NOT installed globally on system.
+
+Step 3: Iinicar
 
 ```bash
-npm install -g nodemon
+node app.js
 ```
 
-Step 4: Switch to _cert/_ directory
-
-```bash
-cd cert/
-```
-
-Step 5. Generate SSL/TLS certificates (valid for 365 days)
-
+Step 4. 
 ```zsh
-openssl genrsa -out key.pem
-
-openssl req -new -key key.pem -out csr.pem
-
-openssl x509 -req -days 365 -in csr.pem -signkey key.pem -out cert.pem
+entrar al url https://localhost:3443
 ```
 
 ## License
