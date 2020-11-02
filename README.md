@@ -29,7 +29,7 @@ node app.js
 
 Step 4. 
 ```zsh
-entrar al url https://localhost:3443
+Entrar al url https://localhost:3443
 ```
 
 ## License
