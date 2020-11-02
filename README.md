@@ -1,10 +1,12 @@
-## How to use SSL/TLS certificates in NodeJS express applications
+##  SSL/TLS certificates in NodeJS express applications
 
-This repo demonstrates how to use a ssl/tls certificate to be used in a nodejs express application for development purposes.
+```
+Requisito: Tener instalado NodeJs
+```
 
 ---
 
-## To start setting up the project
+## Para iniciar la aplicación seguir los siguientes pasos.. 
 
 Step 1: Clonar el repo
 
