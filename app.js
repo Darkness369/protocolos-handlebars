@@ -18,7 +18,7 @@ app.use('/', (req, res, next) => {
         
     }); 
 })
-
+const port = 3443
 const sslServer = https.createServer(
   {
     key: fs.readFileSync(path.join(__dirname, 'cert', 'key.pem')),
@@ -27,4 +27,4 @@ const sslServer = https.createServer(
   app
 )
 
-sslServer.listen(3443, () => console.log('Secure server 🚀🔑 on port 3443'))
+sslServer.listen(port, () => console.log("entra a https://localhost:"+port))
