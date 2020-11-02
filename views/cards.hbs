@@ -9,8 +9,57 @@
         proteger las comunicaciones entre un navegador web y un servidor web. Este protocolo
         cambia la dirección del sitio web de HTTP a HTTPS, donde «S» significa «seguridad».
 
-        <strong>Más información:
-          <a href="https://docs.gandi.net/es/ssl/que_es_ssl.html">Aquí</a> </strong>
+      <h4><strong>Origen</strong></h4>
+      <p>
+        Secure Socket Layer es un sistema de protocolos de caracter general diseñado en 1994 por la empresa Nestcape
+        Communcations Corporation, y está basado en la aplicación conjunta de Criptografía Simétrica, Criptografía
+        Asimétrica (de llave pública), certificados digitales y firmas digitales para conseguir un canal o medio seguro
+        de comunicación a través de Internet.
+      </p>
+      <h4><strong>Aplicaciones</strong></h4>
+      <ul>
+        <li>
+          Cifrado: protege la transmisión de datos
+        </li>
+        <li>
+          Autenticación: garantiza que el servidor al que se conecta es, en efecto, el servidor
+          correcto.
+        </li>
+        <li>
+          Integridad de los datos: garantiza que los datos solicitados o enviados son
+          realmente los datos legítimos.
+        </li>
+
+      </ul>
+      <h4><strong>Características</strong></h4>
+      <ul>
+        <li>SSL implementa un protocolo de negociación para establecer una comunicaión segura a nivel de socked (nombre
+          de máquina más puerto), de forma transparente al usuario y a las aplicaciones que lo usan.
+        </li>
+        <li>
+          La identidad del servidor web seguro (y a veces también del usuario cliente) se consigue mediante el
+          Certificado Digital correspondiente, del que se comprueba su validez antes de iniciar el intercambio de datos
+          sensibles (Autenticación), mientras que de la seguridad de Integridad de los datos intercambiados se encarga
+          la Firma Digital mediante funciones hash y la comprobación de resúmenes de todos los datos enviados y
+          recibidos
+        </li>
+
+        <li>
+          La identidad del servidor web seguro (y a veces también del usuario cliente) se consigue mediante el
+          Certificado Digital correspondiente, del que se comprueba su validez antes de iniciar el intercambio de datos
+          sensibles (Autenticación), mientras que de la seguridad de Integridad de los datos intercambiados se encarga
+          la Firma Digital mediante funciones hash y la comprobación de resúmenes de todos los datos enviados y
+          recibidos.
+        </li>
+      </ul>
+      <strong>Link información:
+        <a href="https://docs.gandi.net/es/ssl/que_es_ssl.html">Aquí</a> </strong>
+      <br>
+      Y
+      <a href="https://www.ecured.cu/SSL#Caracter.C3.ADsticas_Generales"> Aquí</a> </strong>
+      <br>
+      <strong>información complementaria:
+        <a href="https://youtu.be/tHhFQaurGAg">Vídeo</a> </strong>
       </p>
       <p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
     </div>
@@ -21,43 +70,43 @@
     <div class="card-body">
       <p class="card-text">
         El protocolo IMAP o Internet Message Access Protocol (Protocolo de Acceso a
-Mensajes de Internet) permite el acceso a mensajes de correo electrónico que
-se encuentran almacenados en un servidor desde cualquier ordenador que
-tenga conexión a Internet. Hay que indicar que IMAP es un protocolo de
-acceso a nuestro correo electrónico, pero no es un protocolo de envío de
-email.
-<h4><strong>Origen</strong></h4>
-<p>
-IMAP fue diseñado como una moderna alternativa a POP por Mark
-Crispin en el año 1986. Fundamentalmente, los dos protocolos les
-permiten a los clientes de correo acceder a los mensajes
-almacenados en un servidor de correo.
-</p>
-<h4><strong>Características</strong></h4>
-<p>
-Diferencia del protocolo POP3, el correo no es descargado
-inmediatamente, sino que es leído o consultado directamente en el
-servidor.
-Permite ver únicamente los encabezados del mensaje antes de
-decidir si abrirlo o eliminarlo.
-El servidor retiene el correo hasta que se solicite su eliminación.
-Puede consultarse el mismo correo desde diferentes computadoras
-ya que solo se lee lo que hay en el servidor.
-Permite operaciones avanzadas como creación de carpetas y
-buzones en el servidor.
+        Mensajes de Internet) permite el acceso a mensajes de correo electrónico que
+        se encuentran almacenados en un servidor desde cualquier ordenador que
+        tenga conexión a Internet. Hay que indicar que IMAP es un protocolo de
+        acceso a nuestro correo electrónico, pero no es un protocolo de envío de
+        email.
+      <h4><strong>Origen</strong></h4>
+      <p>
+        IMAP fue diseñado como una moderna alternativa a POP por Mark
+        Crispin en el año 1986. Fundamentalmente, los dos protocolos les
+        permiten a los clientes de correo acceder a los mensajes
+        almacenados en un servidor de correo.
+      </p>
+      <h4><strong>Características</strong></h4>
+      <p>
+        Diferencia del protocolo POP3, el correo no es descargado
+        inmediatamente, sino que es leído o consultado directamente en el
+        servidor.
+        Permite ver únicamente los encabezados del mensaje antes de
+        decidir si abrirlo o eliminarlo.
+        El servidor retiene el correo hasta que se solicite su eliminación.
+        Puede consultarse el mismo correo desde diferentes computadoras
+        ya que solo se lee lo que hay en el servidor.
+        Permite operaciones avanzadas como creación de carpetas y
+        buzones en el servidor.
 
-</p>
-<h4><strong>Aplicaciones</strong></h4>
-<p>Es un protocolo de aplicación que permite el acceso a mensajes
-almacenados en un servidor de Internet. Mediante IMAP se puede
-tener acceso al correo electrónico desde cualquier equipo que
-tenga una conexión a Internet
-</p>
-        <strong>¿Cómo implementarlo?
-          <a href="https://rico-schmidt.name/pymotw-3/imaplib/">Aquí</a> </strong>
-          <br>
-        <strong>información complementaria:
-          <a href="https://www.youtube.com/watch?v=Paiozien2pY">Vídeo</a> </strong>
+      </p>
+      <h4><strong>Aplicaciones</strong></h4>
+      <p>Es un protocolo de aplicación que permite el acceso a mensajes
+        almacenados en un servidor de Internet. Mediante IMAP se puede
+        tener acceso al correo electrónico desde cualquier equipo que
+        tenga una conexión a Internet
+      </p>
+      <strong>¿Cómo implementarlo?
+        <a href="https://rico-schmidt.name/pymotw-3/imaplib/">Aquí</a> </strong>
+      <br>
+      <strong>información complementaria:
+        <a href="https://www.youtube.com/watch?v=Paiozien2pY">Vídeo</a> </strong>
 
       </p>
       <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
@@ -73,10 +122,6 @@ tenga una conexión a Internet
         través de un mecanismo de autenticación.
         Proporciona un mecanismo para autenticar un usuario remoto, transferir entradas
         desde el cliente al host y retransmitir la salida de vuelta al cliente.
-
-
-
-
       </p>
       <h4><strong>Origen</strong></h4>
       <p>
@@ -112,12 +157,12 @@ tenga una conexión a Internet
         </li>
       </ul>
       <h4><strong>Aplicaciones</strong></h4>
-      <p> 
+      <p>
         La ventaja significativa ofrecida por el protocolo SSH sobre sus predecesores es
-el uso del cifrado para asegurar la transferencia segura de información entre el
-host y el cliente. Host se refiere al servidor remoto al que estás intentando
-acceder, mientras que el cliente es el equipo que estás utilizando para acceder al
-host. Hay tres tecnologías de cifrado diferentes utilizadas por SSH:
+        el uso del cifrado para asegurar la transferencia segura de información entre el
+        host y el cliente. Host se refiere al servidor remoto al que estás intentando
+        acceder, mientras que el cliente es el equipo que estás utilizando para acceder al
+        host. Hay tres tecnologías de cifrado diferentes utilizadas por SSH:
 
       </p>
       <ul>
@@ -126,15 +171,19 @@ host. Hay tres tecnologías de cifrado diferentes utilizadas por SSH:
 
         </li>
         <li>
-Cifrado asimétrico
+          Cifrado asimétrico
 
         </li>
         <li>
-Hashing
+          Hashing
         </li>
       </ul>
       <strong>Más información:
         <a href="https://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/ch-ssh.html">Aquí</a> </strong>
+      <br>
+
+      <strong>Vídeo complementario:
+        <a href="https://www.youtube.com/watch?v=vxA5Y15sFc8">Vídeo</a> </strong>
       <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
     </div>
   </div>
